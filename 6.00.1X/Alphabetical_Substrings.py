@@ -16,6 +16,6 @@ def alphabetical_substrings(string):
                 max_number = count
                 max_substring = substring
         except IndexError:
-            print('end')
+            count += 0
     print('Longest substring in alphabetical order is: ' + max_substring)
 alphabetical_substrings('azcbobobegghakl')
