@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7f35b260-bec4-4b9d-a44f-a6f621a25fbf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_6.00.1X.py</StartupFile>
+    <StartupFile>counting_vowels.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_6.00.1X.py" />
+    <Compile Include="alphabetical_substrings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="counting_bobs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="counting_vowels.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
