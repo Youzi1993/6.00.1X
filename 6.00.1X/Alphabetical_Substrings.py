@@ -1,7 +1,7 @@
 """ prints the longest substring of s in which the letters occur in alphabetical order"""
 def alphabetical_substrings(string):
     """ prints the longest substring of s in which the letters occur in alphabetical order"""
-    max_substring = ''
+    max_substring = string[0]
     max_number = 1
     for i in range(len(string)):
         count = 1
@@ -16,6 +16,8 @@ def alphabetical_substrings(string):
                 max_number = count
                 max_substring = substring
         except IndexError:
-            count += 0
+            if max_number < count: 
+                max_number = count
+                max_substring = substring
     print('Longest substring in alphabetical order is: ' + max_substring)
-alphabetical_substrings('azcbobobegghakl')
+alphabetical_substrings('xndbuphiq')

@@ -28,6 +28,28 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="counting_vowels.py" />
+    <Compile Include="paying_debt_off_in_a_year.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS3\ps3_hangman.py" />
+    <Compile Include="PS4\ps4a.py" />
+    <Compile Include="PS4\ps4b.py" />
+    <Compile Include="PS4\test_ps4a.py" />
+    <Compile Include="radiationExposure.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="using_bisection_search_to_make_the_program_faster.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PS3\words.txt" />
+    <Content Include="PS4\words.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PS4\" />
+    <Folder Include="PS3\" />
+    <Folder Include="source\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
